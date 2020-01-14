@@ -2,16 +2,16 @@
 - task: Veracode@2
   inputs:
     ConnectionDetailsSelection: 'Credentials'
-    username: 'd5420ed05c6bc3d4f080d0a5cb4814a5'
-    password: '85cf3dc360a4a9733bb5394ef8bbd470b46735ceaa77382484cac3c717c1a56c44c48b4e5a7698906cd1f732ea7f3a600cc033e2e90c5d1e85ecadd929096218'
-    veracodeAppProfile: 'JRS_$(system.teamProject)'
+    username: 'verainternal_jsudama'
+    password: 'Ez4meTw0!'
+    veracodeAppProfile: 'JRS_AzureDevOps'
     version: '$(build.buildNumber)'
     filepath: '$(build.artifactstagingdirectory)'
     createSandBox: false
     createProfile: false
     failTheBuildIfVeracodeScanDidNotInitiate: false
     scanStatusCheckInterval: '60'
-    importResults: true
+    importResults: false
     failBuildOnPolicyFail: false
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
