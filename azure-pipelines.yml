@@ -11,7 +11,7 @@
     createProfile: true
     failTheBuildIfVeracodeScanDidNotInitiate: false
     scanStatusCheckInterval: '60'
-    importResults: false
+    importResults: true
     failBuildOnPolicyFail: false
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
