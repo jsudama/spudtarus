@@ -8,7 +8,7 @@
     version: '$(build.buildNumber)'
     filepath: '$(build.artifactstagingdirectory)'
     createSandBox: false
-    createProfile: false
+    createProfile: true
     failTheBuildIfVeracodeScanDidNotInitiate: false
     scanStatusCheckInterval: '60'
     importResults: false
