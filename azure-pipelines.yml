@@ -19,9 +19,8 @@ steps:
   displayName: 'Run a multi-line script'
 - task: Veracode@2
   inputs:
-    ConnectionDetailsSelection: 'Credentials'
-    username: 'd5420ed05c6bc3d4f080d0a5cb4814a5'
-    password: '85cf3dc360a4a9733bb5394ef8bbd470b46735ceaa77382484cac3c717c1a56c44c48b4e5a7698906cd1f732ea7f3a600cc033e2e90c5d1e85ecadd929096218'
+    ConnectionDetailsSelection: 'Endpoint'
+    AnalysisService: 'VeracodeServiceConnection'
     veracodeAppProfile: 'JRS_AzureDevOps'
     version: '$(build.buildNumber)'
     filepath: '$(build.artifactstagingdirectory)'
